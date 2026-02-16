@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <!-- Disable Location Services -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.locationd</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.example.ipad.privacy.location</string>
+      <key>PayloadUUID</key>
+      <string>REPLACE-WITH-UNIQUE-UUID-1</string>
+      <key>PayloadDisplayName</key>
+      <string>Disable Location Services</string>
+      <key>PayloadEnabled</key>
+      <true/>
+      <key>PayloadRestrictions</key>
+      <dict>
+        <key>LocationServicesEnabled</key>
+        <false/>
+      </dict>
+    </dict>
+
+    <!-- Disable Analytics & Improve iPad -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.analytics</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.example.ipad.privacy.analytics</string>
+      <key>PayloadUUID</key>
+      <string>REPLACE-WITH-UNIQUE-UUID-2</string>
+      <key>PayloadDisplayName</key>
+      <string>Disable Analytics Sharing</string>
+      <key>PayloadEnabled</key>
+      <true/>
+      <key>PayloadRestrictions</key>
+      <dict>
+        <key>AllowAnalytics</key>
+        <false/>
+      </dict>
+    </dict>
+
+    <!-- Disable Personalized Ads -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.advertising</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.example.ipad.privacy.ads</string>
+      <key>PayloadUUID</key>
+      <string>REPLACE-WITH-UNIQUE-UUID-3</string>
+      <key>PayloadDisplayName</key>
+      <string>Disable Personalized Ads</string>
+      <key>PayloadEnabled</key>
+      <true/>
+      <key>PayloadRestrictions</key>
+      <dict>
+        <key>AllowAdvertising</key>
+        <false/>
+      </dict>
+    </dict>
+
+    <!-- Disable Siri & Search Suggestions -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.siri</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.example.ipad.privacy.siri</string>
+      <key>PayloadUUID</key>
+      <string>REPLACE-WITH-UNIQUE-UUID-4</string>
+      <key>PayloadDisplayName</key>
+      <string>Disable Siri & Suggestions</string>
+      <key>PayloadEnabled</key>
+      <true/>
+      <key>PayloadRestrictions</key>
+      <dict>
+        <key>AllowSiri</key>
+        <false/>
+      </dict>
+    </dict>
+
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Privacy & Security Restrictions</string>
+  <key>PayloadIdentifier</key>
+  <string>site.pagy.cybersecuritydefenseofficial.ipad.privacyprofile</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration Profile</string>
+  <key>PayloadUUID</key>
+  <string>595247ab-fb1f-4df5-b59c-2158f6b334c1</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
