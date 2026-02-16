@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <!-- Restrict Location Services -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.locationd</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.example.privacy.location</string>
+      <key>PayloadUUID</key>
+      <string>YOUR-UUID-LOCATION</string>
+      <key>PayloadDisplayName</key>
+      <string>Disable Location Services</string>
+      <key>PayloadEnabled</key>
+      <true/>
+      <key>PayloadRestrictions</key>
+      <dict>
+        <key>LocationServicesEnabled</key>
+        <false/>
+      </dict>
+    </dict>
+
+    <!-- Disable Analytics & Improvements -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.analytics</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.example.privacy.analytics</string>
+      <key>PayloadUUID</key>
+      <string>YOUR-UUID-ANALYTICS</string>
+      <key>PayloadDisplayName</key>
+      <string>Disable Analytics Sharing</string>
+      <key>PayloadEnabled</key>
+      <true/>
+      <key>PayloadRestrictions</key>
+      <dict>
+        <key>AllowAnalytics</key>
+        <false/>
+      </dict>
+    </dict>
+
+    <!-- Disable Personalized Ads -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.advertising</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.example.privacy.ads</string>
+      <key>PayloadUUID</key>
+      <string>YOUR-UUID-ADS</string>
+      <key>PayloadDisplayName</key>
+      <string>Disable Personalized Ads</string>
+      <key>PayloadEnabled</key>
+      <true/>
+      <key>PayloadRestrictions</key>
+      <dict>
+        <key>AllowAdvertising</key>
+        <false/>
+      </dict>
+    </dict>
+
+    <!-- Restrict Siri & Search (Optional) -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.siri</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.example.privacy.siri</string>
+      <key>PayloadUUID</key>
+      <string>YOUR-UUID-SIRI</string>
+      <key>PayloadDisplayName</key>
+      <string>Disable Siri & Suggestions</string>
+      <key>PayloadEnabled</key>
+      <true/>
+      <key>PayloadRestrictions</key>
+      <dict>
+        <key>AllowSiri</key>
+        <false/>
+      </dict>
+    </dict>
+    
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Privacy Restrictions Profile</string>
+  <key>PayloadIdentifier</key>
+  <string>com.example.privacypolicy</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration Profile</string>
+  <key>PayloadUUID</key>
+  <string>6749cfee-3fb9-46e7-9b2a-444fa0a9f224</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
