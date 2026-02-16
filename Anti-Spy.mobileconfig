@@ -93,7 +93,7 @@
   <key>PayloadDisplayName</key>
   <string>Privacy Restrictions Profile</string>
   <key>PayloadIdentifier</key>
-  <string>com.example.privacypolicy</string>
+  <string>site.pagy.cybersecuritydefenseofficial.privacypolicy</string>
   <key>PayloadRemovalDisallowed</key>
   <false/>
   <key>PayloadType</key>
